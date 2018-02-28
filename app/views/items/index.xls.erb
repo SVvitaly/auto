@@ -1,0 +1,18 @@
+<table border="1">
+  <tr>
+    <th>ID</th>
+    <th>product_code</th>
+    <th>item_name</th>
+    <th>keywords</th>
+    <th>description</th>
+  </tr>
+  <% @items.each do |item| %>
+    <tr>
+    <th><%= item.id %></th>
+    <th><%= item.product_code %></th>
+    <th><%= item.item_name %></th>
+    <th><%= item.keywords %></th>
+    <th><%= item.description %></th>
+    </tr>
+    <% end %>
+</table>

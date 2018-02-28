@@ -1,0 +1,125 @@
+<%= form_for @item do |f| %>
+
+    <% if @item.errors.any? %>
+        <div id="error_explanation">
+          <h2>
+            <%= pluralize(@item.errors.count, "error") %> prohibited
+            this article from being saved:
+          </h2>
+          <ul>
+            <% @item.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <p>
+      <%= f.label :product_code %><br>
+      <%= f.text_field :product_code %>
+    </p>
+
+    <p>
+      <%= f.label :item_name %><br>
+      <%= f.text_field :item_name %>
+    </p>
+
+    <p>
+      <%= f.label :keywords %><br>
+      <%= f.text_field :keywords %>
+    </p>
+
+    <p>
+      <%= f.label :description %><br>
+      <%= f.text_field :description %>
+    </p>
+
+    <p>
+      <%= f.label :product %><br>
+      <%= f.text_field :product %>
+    </p>
+
+    <p>
+      <%= f.label :price %><br>
+      <%= f.text_field :price %>
+    </p>
+
+    <p>
+      <%= f.label :currency %><br>
+      <%= f.text_field :currency %>
+    </p>
+
+    <p>
+      <%= f.label :unit_measurement %><br>
+      <%= f.text_field :unit_measurement %>
+    </p>
+
+    <p>
+      <%= f.label :link_image %><br>
+      <%= f.text_field :link_image %>
+    </p>
+
+    <p>
+      <%= f.label :availability %><br>
+      <%= f.text_field :availability %>
+    </p>
+
+    <p>
+      <%= f.label :amount %><br>
+      <%= f.text_field :amount %>
+    </p>
+
+    <p>
+      <%= f.label :group_number %><br>
+      <%= f.text_field :group_number %>
+    </p>
+
+    <p>
+      <%= f.label :group_name %><br>
+      <%= f.text_field :group_name %>
+    </p>
+
+    <p>
+      <%= f.label :subdvision_address %><br>
+      <%= f.text_field :subdvision_address %>
+    </p>
+
+    <p>
+      <%= f.label :unique_identificator %><br>
+      <%= f.text_field :unique_identificator %>
+    </p>
+
+    <p>
+      <%= f.label :product_id %><br>
+      <%= f.text_field :product_id %>
+    </p>
+
+    <p>
+      <%= f.label :subsection_id %><br>
+      <%= f.text_field :subsection_id %>
+    </p>
+
+    <p>
+      <%= f.label :group_id %><br>
+      <%= f.text_field :group_id %>
+    </p>
+
+    <p>
+      <%= f.label :manufacturer %><br>
+      <%= f.text_field :manufacturer %>
+    </p>
+
+    <p>
+      <%= f.label :guarantee_period %><br>
+      <%= f.text_field :guarantee_period %>
+    </p>
+
+    <p>
+      <%= f.label :country %><br>
+      <%= f.text_field :country %>
+    </p>
+
+    <p>
+      <%= f.submit %>
+    </p>
+<% end %>

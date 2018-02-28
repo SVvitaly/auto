@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+</head>
+<body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+<h1>Listing items</h1>
+<p>
+  Download:
+  <%= link_to "CSV", items_path(format: "csv") %>
+  <%= link_to "Excel", items_path(format: "xls") %>
+</p>
+<p>
+  <strong>Product code:</strong>
+  <%= @item.product_code %>
+</p>
+<p>
+  <strong>Item name:</strong>
+  <%= @item.item_name %>
+</p>
+<p>
+  <strong>Keywords:</strong>
+  <%= @item.keywords %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @item.description %>
+</p>
+
+
+<p>
+  <strong>Product:</strong>
+  <%= @item.product %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @item.price %>
+</p>
+
+<p>
+  <strong>Currency:</strong>
+  <%= @item.currency %>
+</p>
+
+<p>
+  <strong>Unit measurement:</strong>
+  <%= @item.unit_measurement %>
+</p>
+
+<p>
+  <strong>Link image:</strong>
+  <img src="<%= @item.link_image %>">
+  <%= @item.link_image %>
+</p>
+
+<p>
+  <strong>Availability:</strong>
+  <%= @item.availability %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @item.amount %>
+</p>
+
+<p>
+  <strong>Group number:</strong>
+  <%= @item.group_number %>
+</p>
+
+<p>
+  <strong>Group name:</strong>
+  <%= @item.group_name %>
+</p>
+
+<p>
+  <strong>Subdvision address:</strong>
+  <%= @item.subdvision_address %>
+</p>
+
+<p>
+  <strong>Unique identificator:</strong>
+  <%= @item.unique_identificator %>
+</p>
+
+<p>
+  <strong>Product id:</strong>
+  <%= @item.product_id %>
+</p>
+
+<p>
+  <strong>Subsection id:</strong>
+  <%= @item.subsection_id %>
+</p>
+
+<p>
+  <strong>Group id:</strong>
+  <%= @item.group_id %>
+</p>
+
+<p>
+  <strong>Manufacturer:</strong>
+  <%= @item.manufacturer %>
+</p>
+
+<p>
+  <strong>Guarantee period:</strong>
+  <%= @item.guarantee_period %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @item.country %>
+</p>
+</html>
+
