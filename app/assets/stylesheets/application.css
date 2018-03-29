@@ -13,3 +13,96 @@
  *= require_tree .
  *= require_self
  */
+
+#header{
+    background: url(/css/images/Korol-dorogi.jpg) !important;
+
+}
+
+/*.item{*/
+    /*width: 100%;*/
+/*}*/
+
+/*!*.card{*!*/
+    /*!*position: relative;*!*/
+    /*!*width: 30%;*!*/
+    /*!*z-index: 1;*!*/
+    /*!*min-height: 100%;*!*/
+    /*!*padding: 20px;*!*/
+    /*!*box-sizing: border-box;*!*/
+    /*!*background-color: #fff;*!*/
+/*!*}*!*/
+
+/*.items{*/
+    /*position: relative;*/
+    /*width: 30%;*/
+    /*z-index: 1;*/
+    /*min-height: 100%;*/
+    /*padding: 20px;*/
+    /*box-sizing: border-box;*/
+    /*background-color: #fff;*/
+/*}*/
+
+
+ .pagination {
+     /*margin: 0;*/
+     /*list-style: none;*/
+     /*padding: 20px;*/
+     /*background: #e7e6d4;*/
+     /*overflow: auto;*/
+
+     display: block;
+     padding: .5rem .75rem;
+     margin-left: -1px;
+     line-height: 1.25;
+     color: #007bff;
+     background-color: #fff;
+     border: 1px solid #dee2e6;
+ }
+
+
+.pagination a, em {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+
+.item {
+    float: left;
+    width: calc(100% / 5 - 20px);
+    height: 300px;
+    margin-right: 20px;
+    background: #ffffff;
+    margin-bottom: 5%;
+    /*border: 3px dashed #666666;*/
+}
+
+.item img {
+    width: 80%;
+    height: 60%;
+    margin-left: 5%;
+}
+.item:last-child {margin-right: 0;}
+
+.card-body{
+    position: inherit;
+    margin-top: 10%;
+    display: block;
+    margin-right: auto;
+}
+
+.card-body a {
+    margin-left: 20%;
+
+}
+
+.card-body p {
+    text-align: center;
+    /*margin-left: 10%;*/
+}

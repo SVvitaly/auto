@@ -31,6 +31,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.7.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.7.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.7.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.5.2, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.4, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="autoprefixer-rails (v8.0.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.8.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
@@ -44,12 +45,15 @@
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.5, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.3, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.3, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dragonfly (v1.0.12, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday (v0.14.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.21, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="font-awesome-rails (v4.7.0.3, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml (v5.0.4, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="highline (v1.7.10, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.9.5, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.7.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.3.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
@@ -65,12 +69,17 @@
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.3.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.11.3, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.13.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multipart-post (v2.0.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql (v2.9.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.4.10, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nested_form (v0.3.2, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.8.2, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="options (v2.3.2, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="popper_js (v1.12.9, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pr_geohash (v1.0.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="progress_bar (v1.2.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="protected_attributes (v1.1.4, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="public_suffix (v3.0.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.8, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-pjax (v1.0.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
@@ -87,6 +96,7 @@
     <orderEntry type="library" scope="PROVIDED" name="remotipart (v1.3.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="roo (v2.7.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="roo-xls (v1.1.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rsolr (v2.1.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby-ole (v1.2.12.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v1.2.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.5.5, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
@@ -97,6 +107,10 @@
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.0.2, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.1, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sunspot (v2.2.7, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sunspot-rails-tester (v1.0.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sunspot_rails (v2.2.7, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sunspot_solr (v2.2.7, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="temple (v0.8.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.20.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
@@ -106,6 +120,7 @@
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.5, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v4.1.6, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="web-console (v2.3.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.0.12, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="yaml_db (v0.6.0, RVM: ruby-2.2.1 [RCOP]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">

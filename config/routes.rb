@@ -2,12 +2,24 @@ Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   root 'items#index'
   # root 'items#delete_all'
+
   resources :items do
     collection { post :import }
     collection { delete :delete_all }
 
+    collection do
+      get :search
+    end
   end
 
+
+
+
+
+  # WillPaginateExample::Application.routes.draw do
+  #   resources :items, only: [:index]
+  #   root to: 'items#index'
+  # end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

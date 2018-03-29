@@ -18,6 +18,18 @@ gem 'bootstrap', '~> 4.0.0'
 
 gem 'rails_admin'
 
+gem 'will_paginate', '~> 3.0'
+
+gem 'dragonfly'
+
+gem 'sunspot_rails' #форк для rails
+gem 'sunspot_solr'  #сам Solr
+gem 'progress_bar'  #нужен для индексирования
+group :test, :development do #в группу для разработки и тестирования
+  gem "sunspot-rails-tester" #это нужно для запуска тестов, иначе не работает.
+  #...
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
